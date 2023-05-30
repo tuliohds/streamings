@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "historics",
+  "info": {
+    "singularName": "historic",
+    "pluralName": "historics",
+    "displayName": "historic",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "signed": {
+      "type": "date"
+    },
+    "monthly_value": {
+      "type": "decimal"
+    },
+    "active_account": {
+      "type": "boolean"
+    },
+    "cancellation_date": {
+      "type": "date"
+    }
+  }
+}

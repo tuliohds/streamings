@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "streamings",
+  "info": {
+    "singularName": "streaming",
+    "pluralName": "streamings",
+    "displayName": "streaming",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "streaming_id": {
+      "type": "integer"
+    },
+    "description": {
+      "type": "text"
+    },
+    "historics": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::historic.historic"
+    }
+  }
+}
